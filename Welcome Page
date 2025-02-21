@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Forensic Case Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .header {
+            padding: 20px;
+            border: 1px solid black;
+        }
+        .nav {
+            display: flex;
+            border: 1px solid black;
+            padding: 10px;
+            gap: 20px; /* Added spacing between links */
+        }
+        .nav a {
+            text-decoration: none;
+            color: black;
+            padding: 5px 10px;
+        }
+        .content-wrapper {
+            display: flex;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .content {
+            flex: 3;
+            padding: 10px;
+        }
+        .side-panel {
+            flex: 1;
+            padding: 10px;
+            border-left: 1px solid black;
+            background: #f0f0f0;
+        }
+        .footer {
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Forensic Case Notes</h1>
+            <h2>HomePage</h2>            
+            <p>Find below the options where you can create your forensic case notes</p>
+        </div>
+        <div class="nav">
+            <li><a href="#">My notes</a></li>
+            <a href="#">Create New notes</a>
+            <a href="#">Login</a>
+            <li><a href="#">Logout</a></li>
+            <a href="../Production Project/indexing.html" style="color: green;"><em>Sign-Up (Coming Soon)</em></a>
+        </div>
+        <div class="content-wrapper">
+            <div class="content">
+                <h3>Welcome</h3>
+                <p>Welcome to My Forensic Case Notes. Your solution to securely hosting forensic case notes digitally.</p>
+        </div>
+    </div>
+</body>
+</html>
